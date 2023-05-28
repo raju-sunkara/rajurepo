@@ -4,8 +4,6 @@ pipeline {
     stage('Build our website') {
       steps {
         echo "This is from Build our website"
-        sh "git config --global user.email \"raju.sunkara@gmail.com\""
-        sh "git config --global user.name \"raju-sunkara\""
         sh "java -jar HelloWorld.jar"
       }
     }
