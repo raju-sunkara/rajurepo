@@ -17,7 +17,7 @@ pipeline {
 
     stage('Deloy website') {
       steps {
-        sh "scripts/deploy_website.sh"
+        echo "add scripts to deploy here"
       }
     }
   }
